@@ -2,6 +2,14 @@
 
 Haxball için tarafımca geliştirilmiş v6 Real Soccer mapine entegre bir scripttir
 
+## Oda nasıl başlatılır ?
+
+**https://www.haxball.com/headless**
+
+Adresi üzerinden console açın htmlyi **top** yapıp kodu yapıştırın ardından entera basın
+
+# v2.0.0
+
 ## Özellikler
 
 - Çift Mod Desteği: Tek bir değişkenle Lig veya Hazırlık modu arasında geçiş yapabilme.
@@ -70,8 +78,6 @@ Discord sunucunuzla senkronize etmek için aşağıdaki alanlara kendi webhook l
 - `chatlog` → Tüm sohbet geçmişi
 - `banlog` → Uzaklaştırılan oyuncuların bilgisi
 - `gircık` → Odaya katılan ve ayrılanların takibi
-
----
 
 Bu script tarafımca geliştirilmiştir.
 
