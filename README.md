@@ -73,6 +73,6 @@ Discord sunucunuzla senkronize etmek için aşağıdaki alanlara kendi webhook l
 
 ---
 
-Bu bot tarafımca geliştirilmiştir.
+Bu script tarafımca geliştirilmiştir.
 
 Not: Botun stabil çalışması için harita (map) isimlerinin kod içerisindeki isimlerle birebir eşleştiğinden emin olun.
