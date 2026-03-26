@@ -1104,6 +1104,14 @@ room.onPlayerJoin = function(player) {
     sendWebhook(webhooklar[odano].gircıklog, `✅ **${player.name}** oyuna **katıldı** (Auth: ${player.auth} , conn: ${player.conn})`);
 }
 room.onPlayerTeamChange = function(changedPlayer, byPlayer) {
+
+if(oyuncuVarMi(mevkilerred, changedPlayer.name)) {
+        oyuncuIsminiSifirla(mevkilerred, changedPlayer.name);
+    }
+    if(oyuncuVarMi(mevkilerblue, changedPlayer.name)) {
+        oyuncuIsminiSifirla(mevkilerblue, changedPlayer.name);
+    }
+
 }
 room.onPlayerLeave = function(player) {
   if(adminler.includes(player.id)) adminler.pop(player.id);
